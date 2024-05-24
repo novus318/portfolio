@@ -40,9 +40,10 @@ const Education = () => {
         <FlipWords words={['learn','educate']} />
       </div>
       </div>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full">
-            <WobbleCard
-                containerClassName="col-span-1 lg:col-span-2 h-full bg-pink-800 min-h-[300px] lg:min-h-[300px]"
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-7xl mx-auto w-full ">
+          <div>
+          <WobbleCard
+                containerClassName="col-span-1 md:col-span-2 h-full bg-pink-800 md:max-h-[380px] lg:min-h-[300px]"
                 className=""
             >
                 <div className="max-w-xs">
@@ -66,6 +67,7 @@ const Education = () => {
                     className="absolute -right-2 lg:-right-[10%] grayscale filter md:-bottom-10 object-contain rounded-2xl"
                 />
             </WobbleCard>
+          </div>
             <WobbleCard containerClassName="col-span-1 max-h-[220px] md:min-h-[380px]">
                 <h2 className="max-w-80  text-left text-balance text-base md:text-xl font-semibold tracking-[-0.015em] text-white">
                 {education[1].degree}
