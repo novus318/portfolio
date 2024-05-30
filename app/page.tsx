@@ -9,8 +9,8 @@ import { HoverEffect } from "@/components/ui/card-hover-effect";
 import { FlipWords } from "@/components/ui/flip-words";
 import { FloatingNav } from "@/components/ui/floating-navbar";
 import { words } from "@/data";
-import { FaCode, FaDatabase, FaHome, FaInfo, FaLaptopCode, FaProjectDiagram, FaUser } from "react-icons/fa";
-import { SiAboutdotme, SiAmazonaws, SiBootstrap, SiCss3, SiExpress, SiGit, SiHyperskill, SiJavascript, SiMongodb, SiNextdotjs, SiNodedotjs, SiReact, SiRedux, SiSkillshare, SiTailwindcss } from "react-icons/si";
+import { FaCode, FaDatabase, FaHome, FaLaptopCode, FaProjectDiagram, FaUser } from "react-icons/fa";
+import { SiAmazonaws, SiBootstrap, SiCss3, SiExpress, SiGit, SiHyperskill, SiJavascript, SiMongodb, SiNextdotjs, SiNodedotjs, SiReact, SiRedux, SiSkillshare, SiTailwindcss } from "react-icons/si";
 
 export default function Home() {
 

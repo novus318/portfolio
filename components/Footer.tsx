@@ -24,7 +24,7 @@ const Footer = () => {
         <p className="text-white-200 text-lg md:mt-10 my-5 text-center">
         let&apos;s discuss how I can help you
         </p>
-        <a href="mailto:nizamudheen.tech@gmail.com">
+        <a aria-label='Email' href="mailto:nizamudheen.tech@gmail.com">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
@@ -68,7 +68,7 @@ const Footer = () => {
           >
             <FaGithub size={32} />
           </button>
-          <button name='Instagram'
+          <button aria-label='Instagram'
             className="hover:text-white-100 transition duration-300"
             onClick={() => {
               window.open(

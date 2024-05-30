@@ -1,14 +1,15 @@
 'use client'
+import Image from 'next/image';
 import React, { useState } from 'react'
 
 const Projects = () => {
   const projects = [
-    { id: 1, title: "TL E-commerce Application", description: "Developed a comprehensive e-commerce application using NextJs for the frontend and Node.js for the backend to provide an exceptional shopping experience", imageUrl: "/tl.svg", link: "https://tlonline.shop/", learnMore: "Link" },
-    { id: 2, title: "IT Solutions Company Website", description: "This website was designed and developed with nextJS,Typescript and tailwind with attractive animations using gsap,framer with visually appealing user interface", imageUrl: "/winndeal.svg", link: "https://www.winndeal.com/" },
-    { id: 3, title: "Austagreg Web3 solutions", description: "Utilized Tailwind CSS for styling and NextJs for the frontend to ensure a SEO optimised, responsive and visually appealing user interface for Web3 solutions company.", imageUrl: "/austa.svg", link: "https://austagreg.vercel.app/" },
-    { id: 4, title: "All-in-one platform for plant lovers.", description: "This e-commerce platform was designed and developed from the ground up to provide an exceptional shopping experience for those who appreciate the beauty of greenery.", imageUrl: "/abyz.svg", link: "https://www.abyzplants.com/" ,learnMore: "Learn More"},
-    { id: 5, title: "Netflix small clone", description: "Developed a comprehensive Landing page with ReactJs for the frontend and TMDB movie database provides a lateat movie and tv shows", imageUrl: "/netflix.svg", link: "https://netfi.netlify.app/", learnMore: "Link" },
-    { id: 6, title: "Confident company website", description: "Created a company assets from logo to company profile and website using html,css and javascript for a building materials company in UAE and also implemented a contact form", imageUrl: "/confi.svg", link: "https://confidentuae.com/" },
+    { id: 1, title: "TL E-commerce Application", description: "Developed a comprehensive e-commerce application using NextJs for the frontend and Node.js for the backend to provide an exceptional shopping experience", imageUrl: "https://drive.google.com/uc?export=view&id=1nZ089i1YU0qimCfyW4LbHJx6BgotUjmI", link: "https://tlonline.shop/", learnMore: "Link" },
+    { id: 2, title: "IT Solutions Company Website", description: "This website was designed and developed with nextJS,Typescript and tailwind with attractive animations using gsap,framer with visually appealing user interface", imageUrl: "https://drive.google.com/uc?export=view&id=1nSKeDk4uSLXHb478dn-1V9p7tHXHB6-H", link: "https://www.winndeal.com/" },
+    { id: 3, title: "Austagreg Web3 solutions", description: "Utilized Tailwind CSS for styling and NextJs for the frontend to ensure a SEO optimised, responsive and visually appealing user interface for Web3 solutions company.", imageUrl: "https://drive.google.com/uc?export=view&id=1p_wWqrxCcN1_YPfGABWeyA3Va-OTUoZQ", link: "https://austagreg.vercel.app/" },
+    { id: 4, title: "All-in-one platform for plant lovers.", description: "This e-commerce platform was designed and developed from the ground up to provide an exceptional shopping experience for those who appreciate the beauty of greenery.", imageUrl: "https://drive.google.com/uc?export=view&id=19JQKEgZbJF0gV7IkcJfpDlnYv8L8cSMt", link: "https://www.abyzplants.com/" ,learnMore: "Learn More"},
+    { id: 5, title: "Netflix small clone", description: "Developed a comprehensive Landing page with ReactJs for the frontend and TMDB movie database provides a lateat movie and tv shows", imageUrl: "https://drive.google.com/uc?export=view&id=1aqzTJl1kr7zxpZU0qFOa9kPKWrj2R4Wb", link: "https://netfi.netlify.app/", learnMore: "Link" },
+    { id: 6, title: "Confident company website", description: "Created a company assets from logo to company profile and website using html,css and javascript for a building materials company in UAE and also implemented a contact form", imageUrl: "https://drive.google.com/uc?export=view&id=1VR49uncCp6Vndken1VE2MPLAoU8DE57l", link: "https://confidentuae.com/" },
   
   ];
 
@@ -27,7 +28,7 @@ const Projects = () => {
         {projects.slice(0, visibleProjects).map((project) => (
           <div key={project.id} className="bg-black-200 bg-opacity-30 shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-xl">
             <div className="overflow-hidden rounded-t-xl">
-              <img src={project.imageUrl} alt={project.title} className="w-full h-auto transform hover:scale-110 transition-transform duration-300" />
+              <Image src={project.imageUrl} alt={project.title} width={1000} height={1000} className="w-full h-auto transform hover:scale-110 transition-transform duration-300" />
             </div>
             <div className='px-4 mb-1 mt-3'>
               <h2 className="text-base md:text-xl font-bold mt-2">{project.title}</h2>

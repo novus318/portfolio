@@ -30,6 +30,7 @@ const Experience = () => {
       <div className="w-full mt-2 grid lg:grid-cols-4 grid-cols-1 gap-10">
         {experience.map((card) => (
           <Button
+          aria-label='experience'
             key={card.id}
 
             duration={Math.floor(Math.random() * 10000) + 10000}
