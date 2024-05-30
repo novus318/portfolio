@@ -3,8 +3,10 @@ import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa'
+import Link from 'next/link'
 
 const Hero = () => {
+  
   return (
     <div className='mb-20 pt-36'>
         <div className='overflow-x-hidden'>
@@ -24,9 +26,9 @@ const Hero = () => {
           <TextGenerateEffect className="text-5xl md:text-6xl lg:text-8xl font-extrabold dark:text-white"
           words='Nizamudheen.'/>
           <p className="text-xl md:text-2xl lg:text-4xl mt-4 md:mt-6 lg:mt-8 tracking-wide text-white">Mern Stack Developer.</p>
-          <div className='mt-8'>
+          <Link href='#projects' className='mt-8'>
        <MagicButton word={'Show my work'} position={'left'} icon={<FaLocationArrow/>}/>
-       </div>
+       </Link>
         </div>
 </div>
     </div>

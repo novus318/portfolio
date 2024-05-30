@@ -37,7 +37,7 @@ const Footer = () => {
       <div className="container mx-auto flex flex-col items-center">
         <div className="flex space-x-4">
           <button aria-label='Whatsapp'
-            className="hover:text-[#cd6242] transition duration-300"
+            className="hover:text-white-100 transition duration-300"
             onClick={() => {
               window.open(`https://wa.me/+917560845014`, '_blank');
             }}
@@ -45,7 +45,7 @@ const Footer = () => {
             <FaWhatsapp size={32} />
           </button>
           <button aria-label='Email'
-            className="hover:text-[#cd6242] transition duration-300"
+            className="hover:text-white-100 transition duration-300"
             onClick={() => {
               window.open(`mailto:nizamudheen.tech@gmail.com`, '_blank');
             }}
@@ -53,7 +53,7 @@ const Footer = () => {
             <FaEnvelope size={32} />
           </button>
           <button aria-label='Linkedin'
-            className="hover:text-[#cd6242] transition duration-300"
+            className="hover:text-white-100 transition duration-300"
             onClick={() => {
               window.open('https://www.linkedin.com/in/muhammednizamudheen', '_blank');
             }}
@@ -61,7 +61,7 @@ const Footer = () => {
             <FaLinkedin size={32} />
           </button>
           <button aria-label='Github'
-            className="hover:text-[#cd6242] transition duration-300"
+            className="hover:text-white-100 transition duration-300"
             onClick={() => {
               window.open('https://github.com/novus318', '_blank');
             }}
@@ -69,7 +69,7 @@ const Footer = () => {
             <FaGithub size={32} />
           </button>
           <button name='Instagram'
-            className="hover:text-[#cd6242] transition duration-300"
+            className="hover:text-white-100 transition duration-300"
             onClick={() => {
               window.open(
                 'https://instagram.com/n_i_zam___?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D',
