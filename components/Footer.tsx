@@ -1,7 +1,5 @@
 'use client'
 import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin, FaLocationArrow, FaWhatsapp } from "react-icons/fa6";
-
-import { socialMedia } from "@/data";
 import MagicButton from "./ui/MagicButton";
 import Link from "next/link";
 
