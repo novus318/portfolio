@@ -21,15 +21,14 @@ const Projects = () => {
     {
       id: 4, title: "All-in-one platform for plant lovers.", description: "This e-commerce platform was designed and developed from the ground up to provide an exceptional shopping experience for those who appreciate the beauty of greenery.", imageUrl: "https://drive.google.com/uc?export=view&id=19JQKEgZbJF0gV7IkcJfpDlnYv8L8cSMt",
       link: "https://www.abyzplants.com/", learnMore: "Learn More",
-      description2: 'I had the pleasure of working on a remarkable project that catered to the growing community of plant enthusiasts in the UAE. This e-commerce platform was designed and developed from the ground up to provide an exceptional shopping experience for those who appreciate the beauty of greenery.',
       projectPoints: [
-        "The frontend of the platform was crafted using Next.js, TypeScript, and Tailwind CSS. This combination resulted in a visually stunning and responsive user interface, ensuring a seamless shopping experience across various devices.",
-        " For the backend, I chose Node.js and Express, paired with MongoDB for data storage. This robust architecture ensures data reliability and scalability, making it possible to accommodate the growing demand for plant purchases.",
-        "Admin Panel: The project included a admin panel. Vendors can easily create and edit product listings, categorize items, and efficiently manage user accounts and orders. Generating order bills is now a simplified process.",
-        "User Features: On the user side, the platform offers dynamic product listings with advanced filtering options. Shoppers can filter products by categories, prices, and perform efficient searches. The product details page provides comprehensive information, and a user-friendly cart page simplifies the checkout process.",
-        "Seamless Transactions: Stripe integration ensures secure and seamless payment processing.simplifying the purchase process.",
-        "User Engagement: User registration is straightforward, with user-friendly signup and login functionality. Registered users can manage their profiles, track their orders, and receive updates on order statuses, creating a personalized shopping experience.",
-        "Real-time Order Status Notifications: We've implemented a feature where order status updates are sent to customers via email using Nodemailer. This communication keeps buyers informed about the progress of their orders, enhancing their overall shopping experience."
+        "The frontend of the platform was crafted using Next.js, TypeScript, and Tailwind CSS with responsive user interface, ensuring a seamless shopping experience across various devices.",
+        "For the backend, I chose Node.js and Express, paired with MongoDB for data storage.",
+        "Vendors can easily create and edit product listings, categorize items, and efficiently manage user accounts and orders. Generating order bills is now a simplified process.",
+        "On the user side, the platform offers dynamic product listingsand Shoppers can filter products by categories, prices, and perform efficient searches. The product details page and a user-friendly cart page simplifies the checkout process.",
+        "Stripe integrationsimplifying the purchase process.",
+        "user-friendly signup and login functionality. Registered users can manage their profiles, track their orders, and receive updates on order statuses.",
+        "We've implemented a feature where order status updates are sent to customers via email using Nodemailer."
 
       ],
     },
@@ -101,7 +100,7 @@ const Projects = () => {
         </div>
       )}
       {isModalOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center" onClick={handleModalClick}>
+        <div className="fixed inset-0 z-[1200] bg-black bg-opacity-50 flex justify-center items-center" onClick={handleModalClick}>
           <div className="relative max-w-6xl mx-auto bg-black-100 p-5 rounded-xl">
             <button onClick={closeModal} className="absolute top-3 left-3 text-white text-lg">
               <FaWindowClose />
