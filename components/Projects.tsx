@@ -6,6 +6,23 @@ import { FaWindowClose } from 'react-icons/fa';
 const Projects = () => {
   const projects = [
     {
+      id: 0, 
+      title: "Devecta | Ask with PDF AI", 
+      description: "Developed an AI-powered application that allows users to upload PDFs, vectorize them using Google Generative AI, and store them in Pinecone for interactive Q&A functionality.", 
+      imageUrl: "https://drive.google.com/uc?export=view&id=1iG_K3pw1JwT4k4BP4L3O_ZTNQth1Oxuc", 
+      link: "https://devecta.vercel.app/", 
+      learnMore: "Link",
+      projectPoints: [
+        "Enabled PDF uploads and vectorization with Google Generative AI.",
+        "Stored vectorized data in Pinecone for efficient retrieval and querying.",
+        "Implemented interactive Q&A functionality allowing users to ask questions about the document.",
+        "Utilized LangChain for seamless AI integration.",
+        "Leveraged MongoDB for robust data storage.",
+        "Integrated React-PDF for displaying PDFs within the application and Uploadthing for file Upload.",
+        "Built using Next.js for the frontend and Node.js for the backend."
+      ]
+    },    
+    {
       id: 1, title: "TL E-commerce Application", description: "Developed a comprehensive e-commerce application using NextJs for the frontend and Node.js for the backend to provide an exceptional shopping experience", imageUrl: "https://drive.google.com/uc?export=view&id=1nZ089i1YU0qimCfyW4LbHJx6BgotUjmI", link: "https://tlonline.shop/", learnMore: "Link",
       projectPoints: [
         "Created dynamic product listings, product detail pages, and an efficient admin panel for product and user management",
