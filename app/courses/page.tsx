@@ -54,7 +54,7 @@ const Courses = () => {
 
 <p className="text-lg text-white-200">
   This course is designed for beginners and focuses on the fundamental concepts of data structures and algorithms, 
-  which are crucial for solving complex problems in technical interviews. You'll learn how to implement and optimize 
+  which are crucial for solving complex problems in technical interviews. You&apos;ll learn how to implement and optimize 
   algorithms using Java, preparing you to coding interviews with confidence.
 </p>
       </div>
