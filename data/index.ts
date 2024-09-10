@@ -49,6 +49,17 @@ export const navItems = [
   ];
   export const words = ["skills", "ability", "knowledge"];
 
+  export const modules = [
+    { id: 1, title: 'Introduction to Programming', description: 'Get an overview of the fundamentals of programming and how computers work.' },
+    { id: 2, title: 'Flow of a Program', description: 'Understand how program control flows from one statement to another in a structured way.' },
+    { id: 3, title: 'Introduction to Java', description: 'Learn the basics of Java, including its syntax, structure, and setup.' },
+    { id: 4, title: 'First Java Program', description: 'Write your first Java program and understand the structure of a Java application.' },
+    { id: 5, title: 'Conditions and Loops', description: 'Master decision-making with conditionals and iterate over code using loops in Java.' },
+    { id: 6, title: 'Methods in Java', description: 'Understand the importance of methods, how to define them, and how to use them in Java.' },
+    { id: 7, title: 'Arrays in Java', description: 'Learn how to work with arrays in Java to store and manipulate collections of data.' },
+  ];
+  
+
   
  
   

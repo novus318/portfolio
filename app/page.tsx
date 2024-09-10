@@ -1,3 +1,4 @@
+import Courses from "@/components/Courses";
 import Education from "@/components/Education";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
@@ -70,6 +71,7 @@ const skills = [
   <Education/>
   <Experience/>
   <Projects/>
+  <Courses/>
   <Footer/>
    </main>
   );
