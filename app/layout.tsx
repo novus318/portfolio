@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
+import ChatPopper from "@/components/chat/ChatPopper";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -50,6 +51,7 @@ export default function RootLayout({
             disableTransitionOnChange
           >
             {children}
+            <ChatPopper/>
           </ThemeProvider>
           </body>
     </html>
